@@ -8,7 +8,7 @@ from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
 
 
-def save_model():
+def train_model():
     model = make_pipeline(StandardScaler(), SVC(gamma='auto'))
 
     # Optional, just to show how to record a param
@@ -66,4 +66,4 @@ if __name__ == "__main__":
         # Logs model, parameters, and metrics 
         # of all supported frameworks' models
         mlflow.autolog()
-        save_model()
+        train_model()
