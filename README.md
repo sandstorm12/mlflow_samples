@@ -4,12 +4,28 @@ A sample project to act as a learning tool and a baseline for future mlflow-base
 
 
 ## Setup
+
 ```bash
+pip install -r requirements.txt
 ```
 
 
 ## Usage
+
+Run sample:
+
 ```bash
+python3 mlflow_sample.py
+```
+
+Launch MLFlow UI:
+
+```bash
+# Launch using default parameters
+mlflow ui
+
+# Launch on custom address and port
+mlflow ui -h 0.0.0.0 -p 5000
 ```
 
 
