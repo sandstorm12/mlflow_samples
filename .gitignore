@@ -1,0 +1,13 @@
+# Pickles
+*.pkl
+
+# Virtual environment
+venv/
+
+# Python cache
+*.pyc
+*.pyo
+
+# MLFlow
+mlruns/
+model_*/
