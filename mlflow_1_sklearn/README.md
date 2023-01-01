@@ -37,7 +37,7 @@ mlflow ui -h 0.0.0.0 -p 5000
 ## Issues and future work
 
 1. Doc: Add an image or video for the mlflow UI presentation
-2. Doc: Makee the code more understandable for someone new to MLFLOW concept
+2. Doc: Make the code more understandable for someone new to MLFLOW concept
 
 
 ## Contributors
