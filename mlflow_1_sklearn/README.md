@@ -15,7 +15,7 @@ pip install -r requirements.txt
 Run sample:
 
 ```bash
-python3 mlflow_sample.py
+python3 run.py
 ```
 
 Launch MLFlow UI:
