@@ -3,20 +3,7 @@
 A sample project to act as a learning tool and a baseline for future mlflow-based AIML projects
 
 
-## Setup
-
-```bash
-pip install -r requirements.txt
-```
-
-
 ## Usage
-
-Run sample:
-
-```bash
-python3 mlflow_sample.py
-```
 
 Launch MLFlow UI:
 
@@ -40,6 +27,7 @@ mlflow ui -h 0.0.0.0 -p 5000
 2. Feature: Learn how to use experiments and runs
 3. Refactor: Create a standard for model and artifact storage
 4. Refactor: Add through explaination regarding why and how are we using MLFlow
+5. Doc: Create a table for content in this main readme
 
 
 ## Contributors
